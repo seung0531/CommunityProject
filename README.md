@@ -23,13 +23,18 @@ Java 기반의 JSP 커뮤니티 웹 애플리케이션입니다.
   ↓
 JSP + HTML + CSS
   ↓
-Servlet
-  ├── Controller
-  ├── DAO ─────────→ MySQL
-  ├── Model
-  └── HttpSession
-        │
-        └── BCrypt 비밀번호 검증
+Servlet (Controller)
+  ↓
+DAO
+  ↓
+MySQL
+
+Model
+  └── 데이터 전달 및 관리
+
+Security
+  ├── HttpSession (로그인 상태 관리)
+  └── BCrypt (비밀번호 해싱 및 검증)
 ```
 ### 주요 기능
 
