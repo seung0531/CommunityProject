@@ -10,12 +10,12 @@ Java 기반의 JSP 커뮤니티 웹 애플리케이션입니다.
 
 ### 사용 기술
 
-- Frontend: JSP, HTML, CSS, JavaScript
+- Frontend: JSP, HTML, CSS
 - Backend: Java, Servlet, JDBC
 - Database: MySQL 8.0
 - Security: BCrypt, HttpSession
 - Server: Apache Tomcat 9
-- Development Tools: Eclipse, MySQL Workbench, Postman, Git, GitHub
+- Development Tools: Eclipse, MySQL Workbench, Git, GitHub
 
 ### 프로젝트 아키텍처
 ```text
